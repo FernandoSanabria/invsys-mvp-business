@@ -6,10 +6,11 @@ import javax.persistence.*;
 @Entity
 @Table(name = "country", schema = "public")
 public class Country {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Integer id;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String name;
 
     public Integer getId() {

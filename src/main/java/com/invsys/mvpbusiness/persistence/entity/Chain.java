@@ -11,15 +11,15 @@ public class Chain {
 
     private String name;
 
-    @Column(name = "id_country")
-    private Integer idCountry;
+    @Column(name = "country")
+    private String country;
 
-    public Integer getIdCountry() {
-        return idCountry;
+    public String getCountry() {
+        return country;
     }
 
-    public void setIdCountry(Integer idCountry) {
-        this.idCountry = idCountry;
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public Integer getId() {

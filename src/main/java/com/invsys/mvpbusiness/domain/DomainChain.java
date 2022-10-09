@@ -6,13 +6,13 @@ public class DomainChain {
 
     private String name;
 
-    private DomainCountry country;
+    private String country;
 
-    public DomainCountry getCountry() {
+    public String getCountry() {
         return country;
     }
 
-    public void setCountry(DomainCountry country) {
+    public void setCountry(String country) {
         this.country = country;
     }
 

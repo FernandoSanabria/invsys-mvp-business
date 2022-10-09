@@ -19,8 +19,8 @@ public class Company {
     @Column(name = "identity_number")
     private String identityNumber;
 
-    @Column(name = "id_country")
-    private Integer idCountry;
+    @Column(name = "country")
+    private String country;
 
 
     public String getPhoneNumber() {
@@ -63,12 +63,12 @@ public class Company {
         this.identityNumber = identityNumber;
     }
 
-    public Integer getIdCountry() {
-        return idCountry;
+    public String getIdCountry() {
+        return country;
     }
 
-    public void setIdCountry(Integer idCountry) {
-        this.idCountry = idCountry;
+    public void setIdCountry(String country) {
+        this.country = country;
     }
 
 }
